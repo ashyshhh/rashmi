@@ -31,22 +31,28 @@ const slideRight = {
 
 const projects = [
   {
-    img: "https://via.placeholder.com/300x200",
+    img: "https://uicookies.com/wp-content/uploads/2018/08/electro-free-responsive-ecommerce-website-templates.jpg",
     title: "E-Commerce Website",
     desc: "Built an online store using HTML, CSS, and JavaScript with secure payment integration, reducing payment failures by 15% and improving order management by 20%.",
     tech: ["HTML", "CSS", "JavaScript"],
   },
   {
-    img: "https://via.placeholder.com/300x200",
+    img: "https://tse2.mm.bing.net/th/id/OIP.TlGupZz5zL_bPcQ_6WMRJwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
     title: "Pizza Sales Analysis",
     desc: "Created an interactive Power BI dashboard with SQL-based insights for orders, revenue, and product trends, enabling real-time filtering and inventory decisions.",
     tech: ["SQL", "Power BI", "DAX"],
   },
   {
-    img: "https://via.placeholder.com/300x200",
+    img: "https://tse1.mm.bing.net/th/id/OIP.OTQwqlJXcPoWK09Ss11EqAHaD3?rs=1&pid=ImgDetMain&o=7&rm=3",
     title: "House Price Prediction",
     desc: "Developed regression models using Python and Scikit-learn to predict house prices, applying EDA, feature engineering, and hyperparameter tuning for optimal performance.",
     tech: ["Python", "Scikit-learn", "EDA", "Machine Learning"],
+  },
+    {
+    img: "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+    title: "Podstream",
+    desc: "Full-stack podcast platform with search, playback, and user authentication using Google Auth and JWT.",
+    tech: ["React Js", "Html & CSS", "Javascript"],
   },
 ];
 
@@ -185,7 +191,7 @@ function App() {
           <motion.div className="hero-buttons" variants={fadeUp}>
             <button onClick={() => scrollTo("projects")} className="btn-outline">View Work</button>
             <button className="btn-filled">
-              <a href="https://github.com/Rashmikumari12" target="_blank" rel="noopener noreferrer">Download Resume</a>
+              <a href="https://drive.google.com/file/d/1OQ1greFyQdduXQCisLX6x_oiUPs_zz54/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Download Resume</a>
             </button>
           </motion.div>
         </div>
@@ -195,6 +201,11 @@ function App() {
       <section className="about-section about-section-mob" id="about">
         <h2><span className="highlight">About</span> Me</h2>
         <div className="about-content">
+              <img
+      src="https://github.com/ashyshhh/myPortfolio/blob/master/ashishimg.jpg?raw=true"
+      alt="Ashish Jha"
+      className="about-image mob-hide"
+    />
           <motion.div className="about-text" variants={slideRight}>
             <h3>Hello, I’m <span className="highlight">Rashmi Kumari</span></h3>
             <p>
