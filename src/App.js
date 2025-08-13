@@ -203,7 +203,7 @@ function App() {
         <div className="about-content">
               <img
       src=""
-      alt="Ashish Jha"
+      alt=""
       className="about-image mob-hide"
     />
           <motion.div className="about-text" variants={slideRight}>
