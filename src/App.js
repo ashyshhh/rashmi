@@ -202,7 +202,7 @@ function App() {
         <h2><span className="highlight">About</span> Me</h2>
         <div className="about-content">
               <img
-      src="https://github.com/ashyshhh/myPortfolio/blob/master/ashishimg.jpg?raw=true"
+      src=""
       alt="Ashish Jha"
       className="about-image mob-hide"
     />
